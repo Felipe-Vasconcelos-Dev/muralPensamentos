@@ -1,4 +1,8 @@
 import api from "./api.js";
+
+const listaPensamentos = document.getElementById("lista-pensamentos").innerHTML = "";
+
+
 const pensamentoconteudo = document.getElementById("pensamento-conteudo").value = ""
 const cancelar = document.getElementById("botao-cancelar")
 cancelar.addEventListener("click",()=>{
