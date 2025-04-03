@@ -61,7 +61,7 @@ const api = {
             const response = await fetch(`http://localhost:3000/pensamentos/${id}`,{
                 method: "DELETE"          
             });
-            window.location.reload(true);
+            window.location.reload();
         
         }
         catch{
