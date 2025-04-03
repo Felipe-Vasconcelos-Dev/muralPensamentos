@@ -1,9 +1,9 @@
-
+const api_base = "https://github.com/Felipe-Vasconcelos-Dev/muralPensamentos/blob/main/backend/db.json"
 
 const api = {
     async buscarPensamentos(){
         try{
-            const response = await fetch('http://localhost:3000/pensamentos');
+    const response = await fetch(`${api_base}`);
             return await response.json()
         }
         catch{
@@ -13,7 +13,7 @@ const api = {
     },
     async buscarPensamentoPorId(id){
         try{
-            const response = await fetch(`http://localhost:3000/pensamentos/${id}`);
+            const response = await fetch(`${api_base}{id}`);
             return await response.json()
         }
         catch{
@@ -24,7 +24,7 @@ const api = {
 
     async SalvarPensamentos(pensamento){
         try{
-            const response = await fetch('http://localhost:3000/pensamentos',{
+            const response = await fetch(`${api_base}`,{
                 method: "POST",
                 headers:{
                     "Content-Type": "application/json"
@@ -41,7 +41,7 @@ const api = {
     },
     async editarPensamentos(pensamento){
         try{
-            const response = await fetch(`http://localhost:3000/pensamentos/${pensamento.id}`,{
+            const response = await fetch(`${api_base}${pensamento.id}`,{
                 method: "PUT",
                 headers:{
                     "Content-Type": "application/json"
@@ -58,7 +58,7 @@ const api = {
     },
     async excluirPensamentos(id){
         try{
-            const response = await fetch(`http://localhost:3000/pensamentos/${id}`,{
+            const response = await fetch(`${api_base}${id}`,{
                 method: "DELETE"          
             });
             location.reload();
