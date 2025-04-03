@@ -1,7 +1,5 @@
 
 
-
-
 const api = {
     async buscarPensamentos(){
         try{
@@ -63,6 +61,7 @@ const api = {
             const response = await fetch(`http://localhost:3000/pensamentos/${id}`,{
                 method: "DELETE"          
             });
+        
         }
         catch{
             alert(`Erro ao Excluir um pensamento`)

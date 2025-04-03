@@ -57,6 +57,7 @@ const ui = {
             try{
 
                 await ui.preecherFormulario(pensamento.id)
+                
             }catch{
                 alert("Alerta Erro ao excluir pensament")
             }
