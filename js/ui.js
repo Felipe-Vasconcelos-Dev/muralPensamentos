@@ -1,5 +1,5 @@
 import api from "./api.js";
-
+const pensamentoconteudo = document.getElementById("pensamento-conteudo").value = ""
 const cancelar = document.getElementById("botao-cancelar")
 cancelar.addEventListener("click",()=>{
     ui.reset()
