@@ -13,7 +13,7 @@ const api = {
     },
     async buscarPensamentoPorId(id){
         try{
-            const response = await fetch(`${api_base}{id}`);
+            const response = await fetch(`${api_base}${id}`);
             return await response.json()
         }
         catch{

@@ -1,18 +1,19 @@
 {
   "pensamentos": [
-<<<<<<< HEAD
     {
       "id": "ea7c",
       "conteudo": "11",
       "autoria": "22"
     },
     {
-      "id": "3e2b",
-      "conteudo": "11",
-      "autoria": "22"
+      "id": "5472",
+      "conteudo": "22",
+      "autoria": "33"
+    },
+    {
+      "id": "b631",
+      "conteudo": "44",
+      "autoria": "55"
     }
-=======
- 
->>>>>>> 422e5ca641a8e4362803ed69fd14cd1bd984af6d
   ]
 }
