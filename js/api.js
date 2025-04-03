@@ -1,4 +1,4 @@
-const api_base = "https://github.com/Felipe-Vasconcelos-Dev/muralPensamentos/blob/main/backend/db.json"
+const api_base = "http://localhost:3000/pensamentos/";
 
 const api = {
     async buscarPensamentos(){
