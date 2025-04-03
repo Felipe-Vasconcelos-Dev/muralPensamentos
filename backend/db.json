@@ -1,5 +1,6 @@
 {
   "pensamentos": [
+<<<<<<< HEAD
     {
       "id": "ea7c",
       "conteudo": "11",
@@ -10,5 +11,8 @@
       "conteudo": "11",
       "autoria": "22"
     }
+=======
+ 
+>>>>>>> 422e5ca641a8e4362803ed69fd14cd1bd984af6d
   ]
 }
